@@ -1,0 +1,11 @@
+____
+
+常用命令：
+- jcmd pId VM.system_properties jvm的属性
+- jcmd pId VM.command_line java进程启动命令
+- jcmd pId VM.flags [-all] jvm调优参数
+- jcmd pId Thread.print 类似jstack
+- jcmd pId GC.class_histogram 内存直方图
+- jcmd pid GC.heap_dump [dumpPath]
+
+____
